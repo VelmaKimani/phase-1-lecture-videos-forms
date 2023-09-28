@@ -1,9 +1,26 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Videos: Forms</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>My TO DO List</title>
     <script src="index.js"></script>
 </head>
 <body>
-    <p>DOM Events</p>
+   <div class="container">
+    <div id="todos">
+        <h3>ToDo List</h3>
+        <h4>Thursday</h4>
+        <form id="todo_form">
+            <div class="field">
+                <input id="new_todo" type="text" placeholder="New To Do">
+                <input type="submit" class="btn" value="Submit">
+            </div>
+        </form>
+        <div id="todo_container">
+            <p>Feed Cat <button class="delete_btn">x</button></p>
+            <p>Do Dishes <button class="delete_btn">x</button></p>
+        </div>
+    </div>
+   </div>
 </body>
 </html>
